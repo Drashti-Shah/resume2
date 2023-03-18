@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+
 import "./App.css";
 import { PDFExport } from "@progress/kendo-react-pdf";
 import { useEffect, useRef, useState } from "react";
