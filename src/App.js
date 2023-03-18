@@ -1,5 +1,5 @@
 import "./App.css";
-import { PDFExport, savePDF } from "@progress/kendo-react-pdf";
+import { PDFExport } from "@progress/kendo-react-pdf";
 import { useEffect, useRef, useState } from "react";
 const contentful = require("contentful");
 
