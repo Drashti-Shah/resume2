@@ -1,0 +1,63 @@
+/* .App {
+  text-align: center;
+  height: '100%';
+
+} */
+html, body, #root, .App {
+  position: fixed;
+  overflow: auto;
+  height: 100vh;
+
+}
+.mainContainer{
+  display: flex;
+  width: '100%';
+  height: '100vh';
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  margin: 5%;
+}
+.candidateName{
+  font-size: 40px;
+  font-weight: bolder;
+  color: #2a68d4;
+}
+.fieldTitle{
+  font-weight: bold;
+  color: #2a68d4;
+}
+.fieldTitletop{
+  font-weight: bold;
+}
+.emailfield{
+  font-weight: bold;
+  text-decoration: underline;
+  color: #2a68d4;
+}
+table {
+  width: 80%;
+
+  border-collapse: collapse;
+}
+th, td{
+  width: 550px;
+  border: 1px solid black;
+}
+.downloadbutton{
+  border-radius: 20px;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+}
+hr{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* .leftContainer{
+ flex: 3;
+ border-right: 1px solid rgb(5, 5, 5);
+}
+.rightContainer{
+  flex: 7;
+} */
