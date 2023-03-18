@@ -20,7 +20,7 @@ function App() {
         setResumeDetails(entry.fields);
       })
       .catch(console.error);
-  }, []);
+  }, [client]);
 
   const pdfExportComponent = useRef(null);
 
