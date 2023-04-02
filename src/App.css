@@ -2,62 +2,37 @@
   text-align: center;
   height: '100%';
 
-} */
-html, body, #root, .App {
-  position: fixed;
-  overflow: auto;
-  height: 100vh;
-
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-.mainContainer{
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  width: '100%';
-  height: '100vh';
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
-  margin: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
-.candidateName{
-  font-size: 40px;
-  font-weight: bolder;
-  color: #2a68d4;
-}
-.fieldTitle{
-  font-weight: bold;
-  color: #2a68d4;
-}
-.fieldTitletop{
-  font-weight: bold;
-}
-.emailfield{
-  font-weight: bold;
-  text-decoration: underline;
-  color: #2a68d4;
-}
-table {
-  width: 80%;
 
-  border-collapse: collapse;
+.App-link {
+  color: #61dafb;
 }
-th, td{
-  width: 550px;
-  border: 1px solid black;
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.downloadbutton{
-  border-radius: 20px;
-  height: 40px;
-  width: 150px;
-  text-align: center;
-  margin: 10px;
-}
-hr{
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-/* .leftContainer{
- flex: 3;
- border-right: 1px solid rgb(5, 5, 5);
-}
-.rightContainer{
-  flex: 7;
-} */
