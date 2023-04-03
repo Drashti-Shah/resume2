@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_RESUME_PROJECT_AF596 }}'
-          projectId: resume-project-af596
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_RESUMEPROJECT_20AE0 }}'
+          projectId: resumeproject-20ae0
